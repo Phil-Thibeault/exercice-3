@@ -6,4 +6,8 @@ img:hover {
   transition: transform 1s;
   transition: transform 1s, -webkit-transform 1s;
 }
+
+.box {
+  color: lightgoldenrodyellow !important;
+}
 /*# sourceMappingURL=element.css.map */

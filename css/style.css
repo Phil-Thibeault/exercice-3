@@ -8,6 +8,10 @@ img:hover {
   transition: transform 1s, -webkit-transform 1s;
 }
 
+.box {
+  color: lightgoldenrodyellow !important;
+}
+
 body {
   margin: 0px;
   background-color: beige;

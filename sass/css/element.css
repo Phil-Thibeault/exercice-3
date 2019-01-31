@@ -12,4 +12,14 @@ img:hover {
   font-size: 1.3em !important;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
 }
+
+.sidebar:hover {
+  -webkit-transform: skewX(-10deg);
+          transform: skewX(-10deg);
+}
+
+.sidebar2:hover {
+  -webkit-transform: skewX(10deg);
+          transform: skewX(10deg);
+}
 /*# sourceMappingURL=element.css.map */

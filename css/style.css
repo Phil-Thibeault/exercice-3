@@ -14,6 +14,16 @@ img:hover {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
 }
 
+.sidebar:hover {
+  -webkit-transform: skewX(-10deg);
+          transform: skewX(-10deg);
+}
+
+.sidebar2:hover {
+  -webkit-transform: skewX(10deg);
+          transform: skewX(10deg);
+}
+
 body {
   margin: 0px;
   background-color: beige;

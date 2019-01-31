@@ -21,5 +21,7 @@ img:hover {
 .sidebar2:hover {
   -webkit-transform: skewX(10deg);
           transform: skewX(10deg);
+  font-weight: bold !important;
+  text-decoration: underline !important;
 }
 /*# sourceMappingURL=element.css.map */

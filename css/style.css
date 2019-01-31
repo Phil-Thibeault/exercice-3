@@ -12,8 +12,6 @@ img:hover {
   color: lightgoldenrodyellow !important;
   font-size: 1.3em !important;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
-  font-weight: bold !important;
-  text-decoration: underline !important;
 }
 
 .sidebar:hover {
@@ -24,6 +22,12 @@ img:hover {
 .sidebar2:hover {
   -webkit-transform: skewX(10deg);
           transform: skewX(10deg);
+  font-weight: bold !important;
+  text-decoration: underline !important;
+}
+
+nav {
+  background-color: chartreuse !important;
 }
 
 body {

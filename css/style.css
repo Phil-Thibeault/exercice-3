@@ -1,4 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu");
+img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
 body {
   margin: 0px;
   background-color: beige;
@@ -59,21 +68,14 @@ nav {
   display: -ms-grid;
   display: grid;
   grid-gap: 1em;
-      grid-template-areas: "header"
- "sidebar"
- "content"
- "sidebar2"
- "footer";
+      grid-template-areas: "header" "sidebar" "content" "sidebar2" "footer";
 }
 
 @media only screen and (min-width: 500px) {
   .wrapper {
     -ms-grid-columns: 20% auto;
         grid-template-columns: 20% auto;
-        grid-template-areas: "header   header"
- "sidebar  content"
- "sidebar2 sidebar2"
- "footer   footer";
+        grid-template-areas: "header   header" "sidebar  content" "sidebar2 sidebar2" "footer   footer";
   }
 }
 
@@ -82,9 +84,7 @@ nav {
     grid-gap: 20px;
     -ms-grid-columns: 120px auto 120px;
         grid-template-columns: 120px auto 120px;
-        grid-template-areas: "header  header  header"
- "sidebar content sidebar2"
- "footer  footer  footer";
+        grid-template-areas: "header  header  header" "sidebar content sidebar2" "footer  footer  footer";
     max-width: 80vw;
     margin: 0 auto;
   }

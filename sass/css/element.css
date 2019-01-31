@@ -11,5 +11,7 @@ img:hover {
   color: lightgoldenrodyellow !important;
   font-size: 1.3em !important;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+  font-weight: bold !important;
+  text-decoration: underline !important;
 }
 /*# sourceMappingURL=element.css.map */

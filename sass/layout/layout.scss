@@ -63,18 +63,23 @@ body {
     flex-direction: column;
     justify-content: center;
     overflow-x: hidden; overflow-y: auto;
-  }
-  
-  .menu a {
-    text-decoration: none;
-    color: white;
-    border-bottom: 1px solid white;
-    font-size: 1.5rem;
-    padding: 0.5rem;
-  }
-  
-  .menu a:first-child {
-    border-top: 1px solid white;
+
+    a {
+      text-decoration: none;
+      color: white;
+      border-bottom: 1px solid white;
+      font-size: 1.5rem;
+      padding: 0.5rem;
+      transition: color 1s;
+
+      &:hover{
+        color: aquamarine;
+      }
+    }
+
+    a:first-child {
+      border-top: 1px solid white;
+    }
   }
 
   #chkBoutonBurger:checked~.global {
@@ -92,7 +97,7 @@ body {
   img{
     max-width: 20vw;
   }
-  
+
   .sidebar {
           grid-area: sidebar;
       }
@@ -172,15 +177,17 @@ body {
             /*Affichage du menu en rangée*/
             flex-direction: row;
             justify-content: space-between;
-          }
-          .menu a {
-            border: none;
-            border-left: 1px solid white;
-            /*Propriété comme item flex - peut s'étirer en largeur*/
-            flex: 1 0 auto;
-          }
-          .menu a:first-child {
-            border-top: none;
+
+            a {
+              border: none;
+              border-left: 1px solid white;
+              /*Propriété comme item flex - peut s'étirer en largeur*/
+              flex: 1 0 auto;
+            }
+
+            a:first-child {
+              border-top: none;
+            }
           }
       }
   

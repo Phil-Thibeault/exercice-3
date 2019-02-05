@@ -152,6 +152,10 @@ nav {
   display: none;
 }
 
+img {
+  max-width: 20vw;
+}
+
 .sidebar {
   -ms-grid-row: 2;
   -ms-grid-column: 1;

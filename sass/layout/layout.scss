@@ -89,6 +89,10 @@ body {
     display: none;
   }
 
+  img{
+    max-width: 20vw;
+  }
+  
   .sidebar {
           grid-area: sidebar;
       }
@@ -126,7 +130,8 @@ body {
     }
   
       @media only screen and (min-width: 500px)  {
-      .contenu {
+      
+        .contenu {
   
           grid-template-columns: 20% auto;
           grid-template-areas:

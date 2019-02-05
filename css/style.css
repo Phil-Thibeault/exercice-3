@@ -96,10 +96,10 @@ nav {
   display: inline-block;
   cursor: pointer;
   /*Effet de transition sur la rotation*/
-  -webkit-transition: -webkit-transform 1s;
-  transition: -webkit-transform 1s;
-  transition: transform 1s;
-  transition: transform 1s, -webkit-transform 1s;
+  -webkit-transition: background-color 1s, -webkit-transform 1s;
+  transition: background-color 1s, -webkit-transform 1s;
+  transition: transform 1s, background-color 1s;
+  transition: transform 1s, background-color 1s, -webkit-transform 1s;
 }
 
 .menu {
@@ -152,6 +152,7 @@ nav {
 #chkBoutonBurger:checked ~ .boutonBurger {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
+  background-color: aquamarine;
 }
 
 #chkBoutonBurger {

@@ -48,7 +48,7 @@ body {
     display: inline-block;
     cursor: pointer;
     /*Effet de transition sur la rotation*/
-    transition: transform 1s;
+    transition: transform 1s, background-color 1s;
   }
   
   .menu {
@@ -88,6 +88,7 @@ body {
   
   #chkBoutonBurger:checked~.boutonBurger {
     transform: rotate(90deg);
+    background-color: aquamarine;
   }
   
   #chkBoutonBurger {

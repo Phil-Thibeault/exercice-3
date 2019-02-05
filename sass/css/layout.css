@@ -107,6 +107,7 @@ nav {
   padding: 0.5rem;
   -webkit-transition: color 1s;
   transition: color 1s;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .menu a:hover {
